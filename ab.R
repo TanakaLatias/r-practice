@@ -35,7 +35,7 @@ fisher.test(table(ret1_01, ret7_01), alternative="greater")
 # p値が2.2e-16以下なので、1日後帰還率が高いほど7日後帰還率が高い傾向があると結論づけられる
 
 # ab1 と同様
-ab2 <- read.csv("ab_test.csv")
+ab2 <- read.csv("ab2.csv")
 nrow(ab2)
 length(ab2)
 

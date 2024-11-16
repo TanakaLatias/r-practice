@@ -15,7 +15,9 @@ us201908 <- us[us$Year==2019 & us$Month==8 & us$Day %in% days & us$City %in% usC
 china199508 <- china[china$Year==1995 & china$Month==8 & china$Day %in% days,]
 china201908 <- china[china$Year==2019 & china$Month==8 & china$Day %in% days,]
 
-temperature2 <- temp[temp$Year==1995 | temp$Month==8, ]
+temperature2 <- temp[temp$Year %in% c(1995,2019) | temp$Month==8, ]
+temperature2 <- temperature2[temperature2$City %in% usCities | temperature2$Country =="China", ]
+nrow(temperature2)
 write.csv(temperature2, "temperature2.csv", row.names = FALSE)
 
 mean(us199508$AvgTemperature)
