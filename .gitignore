@@ -1,0 +1,10 @@
+# 大きすぎる.csv
+temperature.csv
+
+# 練習に使ったRファイル
+temperature2.R
+temperature3.R
+
+# その他
+.RData
+.Rhistory
