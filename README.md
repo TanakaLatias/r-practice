@@ -1,4 +1,4 @@
-R使ったデータ分析（https://qiita.com/TanakaLatias/items/0bde5fc929f9b1dbb115）  
+R使ったデータ分析：https://qiita.com/TanakaLatias/items/0bde5fc929f9b1dbb115  
 
 目的： R を使ったデータ分析を通じ、データドリブンな意思決定力や論理的思考力を身につける  
 
